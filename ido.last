@@ -1,0 +1,39 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/jorgem/.emacs.d/" . "config/")
+ ("/home/jorgem/" . ".emacs.d/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/jorgem/.emacs.d/"
+ "/home/jorgem/.emacs.d/config/"
+ "/home/jorgem/.lein/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "init.el"
+ "my-clojure.el"
+ "profiles.clj"
+ "my-misc.el"
+ "my-ui.el"
+ "my-org.el"
+ "my-navigation.el"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/jorgem/.emacs.d/config/" (21977 26011 597608 925000) "editing.el~" "./" "my-ui.el" "my-clojure.el" "my-elisp-editing.el" "my-themes.el" "my-navigation.el" "my-themes.el~" "themes.el~" "my-js.el" "../" "my-misc.el" "my-org.el~" "my-ui.el~" "my-editing.el" "my-org.el" "my-clojure.el~")
+
+ ("/home/jorgem/.emacs.d/" (21977 25320 945584 329000) "./" "vendor/" "ido.last" "init.el~" "themes/" "ido.last~" "config/" "../" "network-security.data" ".recentf" ".recentf~" "elpa/" ".smex-items" "auto-save-list/" "init.el")
+
+ ("/home/jorgem/.lein/" (21875 22056 951478 719000) "./" "../" "repl-history")
+
+ ("/home/jorgem/" (21976 3736 20057 757000) "googledrive/" ".Xmodmap" ".local/" "./" ".hplip/" ".java/" ".pki/" "Downloads/" ".gstreamer-0.10/" ".m2/" ".config/" ".mozilla/" "tmp/" "fontconfig/" ".ssh/" ".thumbnails/" "StarMade/" "Music/" ".profile" ".openra/" ".emacs.d.spacemacs/" ".macromedia/" ".adobe/" ".cache/" ".xsession-errors" ".ilg-config" ".gdfuse/" "Videos/" ".gconf/" ".x11vnc.log.jorgem-Peppy:5900" ".moonchild productions/" ".xsessionrc" "Desktop/" "Public/" ".dbus/" ".linphonerc" "Documents/" ".Xauthority" ".sbclrc" ".gnome/" "quicklisp/" ".slime-history.eld" ".erc/" ".pam_environment" "Pictures/" ".spacemacs" "../" ".ICEauthority" ".xbindkeysrc" ".bash_history" ".ccl-init.lisp" ".emacs.d.prelude/" ".gnupg/" "–" ".linphone-history.db" ".StarMade/" ".Tribler/" ".linuxbrew/" ".TelegramDesktop/" ".gnome2_private/" ".twinkle/" "dev/" ".xsession-errors.old" ".atom/" "Templates/" "Dropbox/" ".emacs.d/" ".bashrc" "Library/" ".dropbox/" ".lastpass/" ".bash_logout" ".dmrc" ".gnome2/" ".slime/" ".emacs.d.pre-prelude.tar" ".dropbox-dist/" ".lein/")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
