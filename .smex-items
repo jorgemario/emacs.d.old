@@ -1,18 +1,19 @@
 
 ;; ----- smex-history -----
 (
+ make-directory
  cider-jack-in
  package-install
  describe-font
  cd
  5x5
  arp
- dbx
 )
 
 ;; ----- smex-data -----
 (
  (describe-font . 1)
- (cider-jack-in . 5)
+ (cider-jack-in . 7)
  (package-install . 1)
+ (make-directory . 1)
 )

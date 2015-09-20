@@ -2,37 +2,70 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/home/jorgem/.sbt/" . "0.13/")
+ ("/home/jorgem/dev/scala/" . "hello/")
+ ("/home/jorgem/dev/clojure/noob/src/" . "noob/")
+ ("/home/jorgem/dev/clojure/noob/" . "src/")
+ ("/home/jorgem/dev/clojure/" . "noob/")
+ ("/home/jorgem/dev/" . "scala/")
  ("/home/jorgem/.emacs.d/" . "config/")
- ("/home/jorgem/" . ".emacs.d/")
+ ("/home/jorgem/" . "dev/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
- "/home/jorgem/.emacs.d/"
+ "/home/jorgem/dev/scala/hello/"
+ "/home/jorgem/.sbt/0.13/plugins/"
  "/home/jorgem/.emacs.d/config/"
+ "/home/jorgem/.emacs.d/"
  "/home/jorgem/.lein/"
+ "/home/jorgem/dev/clojure/noob/src/noob/"
+ "/home/jorgem/"
 )
 
 ;; ----- ido-work-file-list -----
 (
+ "hw.scala"
+ "plugins.sbt"
+ "my-scala.el"
  "init.el"
- "my-clojure.el"
  "profiles.clj"
+ "core.clj"
+ ".gitignore"
+ "my-clojure.el"
  "my-misc.el"
  "my-ui.el"
- "my-org.el"
- "my-navigation.el"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/jorgem/.emacs.d/config/" (21977 26011 597608 925000) "editing.el~" "./" "my-ui.el" "my-clojure.el" "my-elisp-editing.el" "my-themes.el" "my-navigation.el" "my-themes.el~" "themes.el~" "my-js.el" "../" "my-misc.el" "my-org.el~" "my-ui.el~" "my-editing.el" "my-org.el" "my-clojure.el~")
+ ("/home/jorgem/dev/scala/hello/" (22014 15198 870663 24000) "./" ".ensime" "../" "hw.scala" "target/")
 
- ("/home/jorgem/.emacs.d/" (21977 25320 945584 329000) "./" "vendor/" "ido.last" "init.el~" "themes/" "ido.last~" "config/" "../" "network-security.data" ".recentf" ".recentf~" "elpa/" ".smex-items" "auto-save-list/" "init.el")
+ ("/home/jorgem/.sbt/0.13/" (22014 14885 470651 863000) "./" "../" "staging/" "plugins/")
 
- ("/home/jorgem/.lein/" (21875 22056 951478 719000) "./" "../" "repl-history")
+ ("/home/jorgem/.sbt/0.13/plugins/" (22014 15024 562656 816000) "./" "../" "project/" "plugins.sbt~" "target/" "plugins.sbt")
 
- ("/home/jorgem/" (21976 3736 20057 757000) "googledrive/" ".Xmodmap" ".local/" "./" ".hplip/" ".java/" ".pki/" "Downloads/" ".gstreamer-0.10/" ".m2/" ".config/" ".mozilla/" "tmp/" "fontconfig/" ".ssh/" ".thumbnails/" "StarMade/" "Music/" ".profile" ".openra/" ".emacs.d.spacemacs/" ".macromedia/" ".adobe/" ".cache/" ".xsession-errors" ".ilg-config" ".gdfuse/" "Videos/" ".gconf/" ".x11vnc.log.jorgem-Peppy:5900" ".moonchild productions/" ".xsessionrc" "Desktop/" "Public/" ".dbus/" ".linphonerc" "Documents/" ".Xauthority" ".sbclrc" ".gnome/" "quicklisp/" ".slime-history.eld" ".erc/" ".pam_environment" "Pictures/" ".spacemacs" "../" ".ICEauthority" ".xbindkeysrc" ".bash_history" ".ccl-init.lisp" ".emacs.d.prelude/" ".gnupg/" "–" ".linphone-history.db" ".StarMade/" ".Tribler/" ".linuxbrew/" ".TelegramDesktop/" ".gnome2_private/" ".twinkle/" "dev/" ".xsession-errors.old" ".atom/" "Templates/" "Dropbox/" ".emacs.d/" ".bashrc" "Library/" ".dropbox/" ".lastpass/" ".bash_logout" ".dmrc" ".gnome2/" ".slime/" ".emacs.d.pre-prelude.tar" ".dropbox-dist/" ".lein/")
+ ("/home/jorgem/.sbt/" (22014 14503 462638 259000) "./" "../" "0.13/" "boot/")
+
+ ("/home/jorgem/.emacs.d/config/" (22014 14388 358634 160000) "editing.el~" "./" "my-ui.el" "my-clojure.el" "my-elisp-editing.el" "my-themes.el" "my-navigation.el" "my-themes.el~" "themes.el~" "my-js.el" "../" "my-misc.el" "my-org.el~" "my-ui.el~" "my-editing.el" "my-org.el" "my-clojure.el~" "my-scala.el~" "my-scala.el")
+
+ ("/home/jorgem/.emacs.d/" (22014 14279 550630 285000) "./" ".git/" "vendor/" "ido.last" "init.el~" "themes/" "ido.last~" "config/" "projectile-bookmarks.eld" "../" "network-security.data" ".recentf" ".recentf~" "#init.el#" "elpa/" "cider-history" ".smex-items" "auto-save-list/" "init.el")
+
+ ("/home/jorgem/dev/scala/" (22014 14107 258624 149000) "./" "hello/" "../")
+
+ ("/home/jorgem/dev/" (22014 14069 322622 798000) "./" "clojure/" "wildfly-8.2.1.Final/" "../" "lisp/" "scala/")
+
+ ("/home/jorgem/" (22014 14169 658626 371000) "googledrive/" ".Xmodmap" ".local/" "./" ".hplip/" ".java/" ".pki/" "Downloads/" ".gstreamer-0.10/" ".m2/" ".config/" ".mozilla/" "tmp/" "fontconfig/" ".ssh/" ".thumbnails/" ".sbt/" "StarMade/" "Music/" ".profile" ".openra/" ".macromedia/" ".adobe/" ".cache/" ".xsession-errors" ".ilg-config" ".gdfuse/" "Videos/" ".gconf/" ".x11vnc.log.jorgem-Peppy:5900" "Popcorn-Time/" ".moonchild productions/" ".xsessionrc" "Desktop/" "Public/" ".dbus/" ".gphoto/" "Documents/" ".Xauthority" ".sbclrc" ".gnome/" "quicklisp/" ".slime-history.eld" ".erc/" ".pam_environment" "Pictures/" "../" ".ICEauthority" ".xbindkeysrc" ".bash_history" ".gitconfig" ".ccl-init.lisp" ".ivy2/" ".gnupg/" ".scala_history" "–" ".StarMade/" ".Tribler/" ".linuxbrew/" ".TelegramDesktop/" ".gnome2_private/" ".twinkle/" "dev/" ".xsession-errors.old" ".atom/" "Templates/" "Dropbox/" ".emacs.d/" ".bashrc" "Library/" ".dropbox/" ".lastpass/" ".bash_logout" ".dmrc" ".gnome2/" ".slime/" ".gitignore" ".dropbox-dist/" ".lein/")
+
+ ("/home/jorgem/.lein/" (21977 26281 553618 538000) "./" "profiles.clj~" "../" "repl-history" "profiles.clj" "repl-port")
+
+ ("/home/jorgem/dev/clojure/noob/src/noob/" (21978 38627 863588 713000) "core.clj" "./" "../" "core.clj~")
+
+ ("/home/jorgem/dev/clojure/noob/src/" (21978 38435 839581 875000) "./" "../" "noob/")
+
+ ("/home/jorgem/dev/clojure/noob/" (21978 38435 843581 875000) "./" "project.clj" "LICENSE" "../" "README.md" ".hgignore" "resources/" "test/" "doc/" "src/" ".gitignore")
+
+ ("/home/jorgem/dev/clojure/" (21978 38435 827581 874000) "./" "../" "noob/")
 )
 
 ;; ----- ido-unc-hosts-cache -----

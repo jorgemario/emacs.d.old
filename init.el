@@ -1,16 +1,15 @@
 ;; packages repositories
 (require 'package)
+;(add-to-list 'package-archives
+;             '("marmalade" . "http://marmalade-repo.org/packages/") t)
+;(add-to-list 'package-archives
+;             '("tromey" . "http://tromey.com/elpa/") t)
 (add-to-list 'package-archives
-             '("marmalade" . "http://marmalade-repo.org/packages/") t)
-(add-to-list 'package-archives
-             '("tromey" . "http://tromey.com/elpa/") t)
-(add-to-list 'package-archives
-             '("melpa" . "http://melpa.org/packages/") t)
-(add-to-list 'package-archives
-             '("melpa stable" . "http://stable.melpa.org/packages/") t)
+             '("melpa" . "http://melpa.milkbox.net/packages/") t)
+;(add-to-list 'package-archives
+;             '("melpa stable" . "http://stable.melpa.org/packages/") t)
 (add-to-list 'package-archives
              '("org" . "http://orgmode.org/elpa/") t)
-
 
 ;; Load and activate emacs packages.
 ;; This also sets the load path.
@@ -55,6 +54,9 @@
 
     git-gutter
     company
+
+    ;; scala mode
+    ensime
     ))
 
 (dolist (p my-packages)
@@ -76,6 +78,7 @@
 (load "my-ui.el")
 (load "my-js.el")
 (load "my-misc.el")
+(load "my-scala.el")
  
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
@@ -84,7 +87,7 @@
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (company tagedit smex rainbow-delimiters projectile paredit magit ido-ubiquitous git-gutter clojure-mode-extra-font-locking cider))))
+    (ensime tagedit smex rainbow-delimiters projectile paredit magit ido-ubiquitous git-gutter company clojure-mode-extra-font-locking cider auto-complete))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

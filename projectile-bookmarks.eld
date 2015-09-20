@@ -1,0 +1,1 @@
+("~/.emacs.d/" "~/dev/clojure/noob/")
