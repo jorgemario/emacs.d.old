@@ -1,6 +1,6 @@
-* Personal emacs configuration *
+# Personal emacs configuration
 
-** Personal Setup **
+## Personal Setup
 * Clojure (cider)
 * Scala (ensime)
 * elisp (paredit, rainbow parenthesis)
