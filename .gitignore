@@ -12,6 +12,9 @@
 
 ### Emacs ###
 # -*- mode: gitignore; -*-
+.recentf
+cider-history
+network-security.data
 *~
 \#*\#
 /.emacs.desktop
