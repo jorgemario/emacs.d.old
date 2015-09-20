@@ -39,7 +39,6 @@
     ;; Project navigation
     projectile
 
-
     ;; Parenthesis matching
     rainbow-delimiters
 
